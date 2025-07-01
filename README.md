@@ -17,15 +17,28 @@ A Node.js application that generates SEO-optimized page descriptions for ticket 
 
 ## Installation
 
-1. Clone repository
-2. Install dependencies: `npm install`
-3. Configure environment variables in `.env`:
+1. Clone repository:
+   ```bash
+   git clone https://github.com/ilaygranot/seo-description-generator.git
+   cd seo-description-generator
    ```
-   DATAFORSEO_LOGIN=your_login
-   DATAFORSEO_PASSWORD=your_password
-   OPENAI_API_KEY=your_api_key
+
+2. Install dependencies:
+   ```bash
+   npm install
    ```
-4. Start application: `npm start`
+
+3. Configure environment variables:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your actual API credentials
+   ```
+
+4. Start application:
+   ```bash
+   npm start
+   ```
+
 5. Access at `http://localhost:3000`
 
 ## Core Functionality

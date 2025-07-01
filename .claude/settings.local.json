@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(open:*)",
-      "Bash(mkdir:*)"
-    ],
-    "deny": []
-  }
-}
